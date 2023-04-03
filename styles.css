@@ -6,6 +6,7 @@ body{
 .assignment{
     display:flex;
     padding: 10px;
+    margin: 10px;
     background: darkolivegreen;
     border-radius: 17px;
 }
@@ -13,9 +14,8 @@ body{
 .assignment img{
     width:400px;
     height:300px;
-    padding: 10px;
     margin: 15px;
-    border: 2px solid gold;
+    border: 10px solid gold;
     border-radius: 17px;
 }
 
