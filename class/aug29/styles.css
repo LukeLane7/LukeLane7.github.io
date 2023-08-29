@@ -1,0 +1,32 @@
+/*Structure*/
+
+body {
+    background-color: dodgerblue;
+}
+
+/*Typography*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+
+}
+
+p{
+    color: darkgreen;
+    background-color: yellow;
+}
+
+table, td, th{
+    color: red;
+    background-color: aliceblue;
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid red;
+}
+th{
+    border: 1px solid red;
+    background-color: black;
+}
