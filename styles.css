@@ -1,0 +1,16 @@
+body{
+    background-color: midnightblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    color: black;
+}
+p{
+    color:gray;
+}
+h2{
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
