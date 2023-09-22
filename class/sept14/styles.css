@@ -1,0 +1,52 @@
+/* Structure */
+
+body{
+    background-color: antiquewhite;
+}
+
+/* Animation */
+
+#square {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    top: 100px;
+    animation-name: anim-square;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#button-click {
+    
+}
+
+@keyframes anim-square {
+    0%{
+        background-color: red;
+        top: 0px;
+    }
+    25%{
+        background-color: blueviolet;
+        top: 100px;
+    }
+    50%{
+        background-color: green;
+        top: 0px;
+    }
+    75%{
+        background-color: yellow;
+        top: 100px;
+    }
+    100%{
+        background-color: skyblue;
+        top: 0px;
+    }
+
+}
+
+/* Typography */
+
+/* Media Query */

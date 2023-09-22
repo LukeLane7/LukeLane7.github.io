@@ -1,0 +1,76 @@
+/* Structure */
+
+#main-header {
+    background-color: aquamarine;
+    padding: 5px;
+}
+#main-nav{
+    background-color: aliceblue;
+    padding: 1px;
+}
+#main-content{
+    background-color: cornflowerblue;
+    padding: 2px;
+}
+.col1of2{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+}
+.col2of2{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+}
+.col1of3{
+    background-color: lightsalmon;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Animation */
+
+/* Navigation */
+#main-nav ul{
+
+}
+#main-nav li{
+    list-style-type: none;
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+/* Typography */
+
+body{
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-header{
+    text-align: center;
+}
+#main-content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#main-footer{
+    text-align: center;
+}
+
+/* Media Query */
+
+/* Larger Resolutions */
+
+@media (min-width: 900px) {
+    #main-nav ul, .flex-container{
+        display:flex;
+    }
+}
+
+#main-nav li, .col1of2, .col2of2, .col1of3{
+    flex: 1;
+}
+
+.col2of3{
+    flex:2
+}

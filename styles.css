@@ -1,16 +1,47 @@
+/* Structure */
 body{
-    background-color: midnightblue;
+    background-color: lightblue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+/* Animation */
 
-h1{
+/* Navigation */
+#main-nav{
+    background-color: antiquewhite;
+}
+#main-nav ul{
+    display: flex;
+}
+#main-nav li{
+    list-style-type: none;
+}
+#main-nav a{
+    text-decoration: none;
     color: black;
 }
-p{
-    color:gray;
-}
-h2{
-    color: gold;
+
+/* Typography */
+h1{
+    text-align: center;
+    color:navy;
     font-family: 'Times New Roman', Times, serif;
 }
+h2{
+    text-align: center;
+    color:  firebrick;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Media Query */
+
+@media (min-width: 900px) {
+    #main-nav ul{
+        display:flex;
+    }
+}
+
+#main-nav li{
+    flex: 1;
+}
+/* Larger Resolutions */
+
