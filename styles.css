@@ -11,12 +11,10 @@ body{
 
 /* Navigation */
 #main-nav{
-    
+    font-size: 30px;
+    align-content: center;
 }
-#main-nav ul{
-    display: flex;
 
-}
 #main-nav li{
 
     text-align: center;
@@ -44,7 +42,7 @@ h2{
 }
 /* Media Query */
 
-@media (max-width: 900px) {
+@media (min-width: 575px) {
     #main-nav ul{
         display:flex;
     }
@@ -53,6 +51,6 @@ h2{
 /* Resolutions */
 img{
     width: 300px;
-
+    border-radius: 10px;
 }
 
