@@ -1,0 +1,55 @@
+:root{
+    --red: white 0%;
+    --white: white 0%;
+    --pad: 0%;
+    --wlk1: none;
+    --wlk0: ;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    flex:1;
+}
+
+body{
+    background-color: darkslategrey;
+}
+#walk-pad{
+    padding-top: 15%;  
+}
+#running-man, #fund-raising{
+    background-color:dodgerblue;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img{
+    padding-left: var(--pad);
+    width:100px;
+    height:125px;
+}
+#walking-man0{
+    display:var(--wlk0);
+}
+#walking-man1{
+    height:125px;
+    display:var(--wlk1);
+    
+}
+label, button, input{
+    margin-bottom: 10px;
+}
+
+#rectangle div{
+    width:75px;
+    height: 400px;
+    background-image:linear-gradient(0deg, var(--red), var(--white));
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
