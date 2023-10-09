@@ -48,7 +48,11 @@ const fundsMade = () => {
     const funds = document.getElementById("funds").value;
     const root = document.querySelector(":root");
 
-    if(funds>=2500&&funds<5000){
+    if(funds>=0&&funds<2500){
+        root.style.setProperty("--red","red 25%")
+        root.style.setProperty("--white","white 0%")
+    }
+    else if(funds>=2500&&funds<5000){
         root.style.setProperty("--red","red 25%")
         root.style.setProperty("--white","white 0%")
     }

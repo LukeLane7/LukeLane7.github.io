@@ -1,0 +1,45 @@
+:root{
+    --opa:0;
+}
+
+body{
+    background-color:midnightblue;
+}
+
+ul{
+    list-style: none;
+    display: flex;  
+}
+li{
+    flex:1;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    margin:5px;
+    padding: 10px;
+    
+}
+h1{
+    text-align: center;
+}
+#draw-rainbow{
+    margin-left: 10px;
+    background-color: darkslategrey;
+    border-style: none;
+    color:dodgerblue;
+    border-radius: 3px;
+}
+#draw-rainbow:hover{
+    background-color: antiquewhite;
+}
+#input-row p{
+    margin:0;
+    
+}
+img{
+    width: 100px;
+    position:absolute;
+    right:0;
+    padding-right: 10px;;
+    padding-top: 25px;
+    opacity: var(--opa);
+}

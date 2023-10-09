@@ -36,7 +36,7 @@ const run = () => {
         if(count==75){
             clearInterval(running);
         }
-    },200);
+    },100);
 }
 
 window.onload = () => {
