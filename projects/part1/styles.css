@@ -15,6 +15,36 @@ h2{
     text-align: center;
 
 }
+h3{
+    padding-left: 15px;
+    font-size: 20px;
+}
+h4{
+    padding-left: 25px;
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h5{
+    font-size: 20px;
+    padding-left: 20px;
+}
+h6{
+    font-size: 30px;
+    margin: 10px;
+    color:gold;
+}
+h7{
+   color:white;
+   font-size: 40px; 
+   border-color: white;
+   border-bottom-style: solid;
+}
+h8{
+    color:antiquewhite;
+    font-size: 20px;
+    text-decoration: underline;
+}
 #masters-monday{
     background-color: antiquewhite;
     padding: 5px;
@@ -35,8 +65,30 @@ h2{
     background-color: lightgreen;
     padding: 10px;
 }
+#tee-time-listing{
+    border-width: 5px;
+    background-color: lightcoral;
+    border-radius: 25px;
+    margin:20px;
+    text-align: center;
 
-img{
+}
+#membership-listing{
+    border-width: 5px;
+    background-color: darkgreen;
+    border-radius: 25px;
+    margin:20px;
+    text-align: center;
+}
+#store-listing{
+    border-width: 5px;
+    background-color: navy;
+    border-radius: 25px;
+    margin:20px;
+    text-align: center;
+    padding-top: 20px;
+}
+#hole2{
     padding-top: 25px;
     padding-bottom: 5px;
     width: 500px;
@@ -45,6 +97,12 @@ img{
     border-color: gold;
     border-width: 2px;
     border-radius: 5px;
+}
+#november-img{
+    border-radius: 20px;
+    width: 400px;
+    margin:0 auto;
+    display: block;
 }
 #main-footer{
     background-color: aqua;
@@ -57,10 +115,7 @@ footer{
     color:white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h3{
-    padding-left: 15px;
-    font-size: 20px;
-}
+
 #footer-list{
     border-top-style: dotted;
     border-color: gold;
@@ -107,6 +162,15 @@ p{
     font-size: 18px;
     margin-bottom: 20px;
 }
+#book-TT{
+    margin-bottom: 20px;
+}
+#membership-button{
+    margin-bottom: 20px;
+}
+#store-button{
+    margin-bottom: 20px;
+}
 .hide{
     display: none;
 }
@@ -129,8 +193,11 @@ body{
         display: flex;
         
     }
-    .col1of2{
+    .col1of2,.col1of3{
         flex:1;
+    }
+    .col2of3{
+        flex:2;
     }
     #hamburger {
         display: none;
@@ -143,7 +210,7 @@ body{
     #hidden-words{
         padding-bottom: var(--toggleNav);
     }
-    img{
+    #hole2{
         width: 400px;
     }
     
