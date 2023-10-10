@@ -1,0 +1,31 @@
+body{
+    background-color:slategray;
+}
+
+h1{
+    color:darkslategrey;
+    text-align: center;
+}
+#toys{
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+img{
+    width:400px;
+    height:400px;
+    display: block;
+    margin:0 auto;
+}
+.col1of3{
+    margin:5px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 900px){ 
+    .flex-container{
+        display: flex;
+    }
+    .col1of3{
+        flex:1;
+    }
+}
