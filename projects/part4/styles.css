@@ -1,0 +1,222 @@
+:root{
+    --toggleNav: 500px;
+}
+/* Structure */
+h1{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+body{
+    background-color: darkgreen;
+}
+h2{
+    color:midnightblue;
+    text-align: center;
+
+}
+h3{
+    padding-left: 15px;
+    font-size: 20px;
+}
+h4{
+    padding-left: 25px;
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h5{
+    font-size: 20px;
+    padding-left: 20px;
+}
+h6{
+    font-size: 30px;
+    margin: 10px;
+    color:gold;
+}
+h7{
+   color:white;
+   font-size: 40px; 
+   border-color: white;
+   border-bottom-style: solid;
+}
+h8{
+    color:antiquewhite;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#masters-monday{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+}
+#main-header{
+    background:url(images/golf-header.jpeg);
+    background-size: 100%;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+}
+#hidden-words{
+    padding-bottom: 200px;
+}
+#main-content{
+    background-color: lightgreen;
+    padding: 10px;
+}
+#tee-time-listing{
+    border-width: 5px;
+    background-color: lightcoral;
+    border-radius: 25px;
+    margin:20px;
+    text-align: center;
+
+}
+#membership-listing{
+    border-width: 5px;
+    background-color: darkgreen;
+    border-radius: 25px;
+    margin:20px;
+    text-align: center;
+}
+#store-listing{
+    border-width: 5px;
+    background-color: navy;
+    border-radius: 25px;
+    margin:20px;
+    text-align: center;
+    padding-top: 20px;
+}
+#hole2{
+    padding-top: 25px;
+    padding-bottom: 5px;
+    width: 500px;
+    display: block;
+    margin:0 auto;
+    border-color: gold;
+    border-width: 2px;
+    border-radius: 5px;
+}
+#november-img{
+    border-radius: 20px;
+    width: 400px;
+    margin:0 auto;
+    display: block;
+}
+#main-footer{
+    background-color: aqua;
+}
+#main-nav{
+    background-color:antiquewhite;
+    padding-bottom: 5px;
+}
+footer{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#footer-list{
+    border-top-style: dotted;
+    border-color: gold;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+form label{
+    display:block;
+
+}
+/* Main navagation*/
+#hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: brown;
+    margin: 5px 0;
+    margin-left: 10px;
+}
+#main-nav li{
+    padding-top: 15px;
+    list-style-type:none;
+    flex:1;
+    font-size: 25px;
+}
+#main-nav ul{
+    align-items: center;
+}
+#main-nav a{
+    text-decoration: none;
+    color:brown;
+}
+#main-nav a:hover{
+    color:darkgreen;
+}
+.horizontal-nav{
+    list-style-type: none;
+}
+p{
+    text-indent: 45px;
+    padding-top:10px;
+    padding-bottom: 25px;
+    
+}
+#register{
+    margin-left: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#book-TT{
+    margin-bottom: 20px;
+}
+#membership-button{
+    margin-bottom: 20px;
+}
+#store-button{
+    margin-bottom: 20px;
+}
+.hide{
+    display: none;
+}
+/* Typography */
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Larger Resolutions */
+
+@media only screen and (min-width: 900px){ 
+    #main-nav ul{
+        justify-content: center;
+    }
+    .horizontal-nav, .flex-container{
+        display: flex;
+        
+    }
+    .col1of2,.col1of3{
+        flex:1;
+    }
+    .col2of3{
+        flex:2;
+    }
+    #hamburger {
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px){ 
+    #main-nav{
+        padding-top: 10px;
+    }
+    #hidden-words{
+        padding-bottom: var(--toggleNav);
+    }
+    #hole2{
+        width: 400px;
+    }
+    
+}
+/* ALL OF THE ABOVE IS HEADER AND NAV */
+/* with body background color */
