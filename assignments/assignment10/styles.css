@@ -6,6 +6,9 @@ h1{
     color:darkslategrey;
     text-align: center;
 }
+#toys-table{
+    display:none;
+}
 #toys{
     background-color: dodgerblue;
     border-radius: 10px;
@@ -15,6 +18,9 @@ img{
     height:400px;
     display: block;
     margin:0 auto;
+}
+img:hover{
+    opacity: 50%;
 }
 .col1of3{
     margin:5px;
