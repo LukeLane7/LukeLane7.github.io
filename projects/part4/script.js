@@ -22,12 +22,6 @@ const submitEmail = (e) => {
     const message = document.getElementById("message").value;
 
 }
-const showEmailResult = async (e) => {
-    e.preventDefault();
-    const result = getElementById("result");
-    let response = await "Email Successfully Sent";
-
-}
 
 
 

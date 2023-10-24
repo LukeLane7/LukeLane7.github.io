@@ -134,9 +134,7 @@ form input, textarea{
 }
 iframe{
     width:90%;
-}
-#iframe{
-
+    height:90%;
 }
 /* Main navagation*/
 #hamburger div{
