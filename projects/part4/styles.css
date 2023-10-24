@@ -129,8 +129,14 @@ footer{
 form label{
     display:block;
 }
-form input{
+form input, textarea{
     margin-left: 50px;
+}
+iframe{
+    width:90%;
+}
+#iframe{
+
 }
 /* Main navagation*/
 #hamburger div{
