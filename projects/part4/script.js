@@ -15,7 +15,17 @@ const toggleNav = () => {
 const submitEmail = (e) => {
     e.preventDefault();
     document.getElementById("results").classList.remove("hide");
-    
+
+    const form = document.getElementById("email-form");
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+}
+const showEmailResult = async (e) => {
+    e.preventDefault();
+    const result = getElementById("result");
+    let response = await "Email Successfully Sent";
 
 }
 

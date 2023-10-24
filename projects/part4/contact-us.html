@@ -31,27 +31,34 @@
                 <section class="col1of2">
                      <section class="input-section">
                         <p><strong>Please enter your information bellow</strong></p>
-                        <form id="email-form">
+                        <form 
+                            id="email-form"
+                            action="https://api.web3forms.com/submit"
+                            method="POST"
+                        >
+                        <input type="hidden" name="access-key" value="0a322a15-f3a2-40e0-93dd-27e8534adee3"/>
+
                         <p>
                           <label for="name">*First Name:</label>
-                            <input type="text" id="name" required/>
+                            <input id="name" type="text" name="name" required/>
                         </p>
                         <p>
                             <label for="email">*Email:</label>
-                            <input type="email" id="email" required/>
+                            <input id="email" type="email" name="email" required/>
                         </p>
                         <p>
                             <label for="subject">*Subject:</label>
                             <input type="text" id="subject" required/>
                         </p>
                         <p>
-                            <label for="summary">*Reason for email:</label>
-                            <input type="text" id="summary" required/>
+                            <label for="message">*Reason for email:</label>
+                            <textarea id="message" name="message" required></textarea>
                         </p>
                         <p>
                             <label for="add-info">Additional information:</label>
                             <input type="text" id="add-info"/>
                         </p>
+                        <input type="hidden" name="redirect" value="https://api.web3forms.com/success">
                         <button id="submit-button">Submit</button>
                         </form>
                     </section>
@@ -60,6 +67,7 @@
                     <section id="results" class="hide">
                         <p>You have successfully submitted an email and someone from our support team will contact you shortly</p>
                     </section>
+                    <p id="result"></p>
                 </section>
             </div>
         </main>
