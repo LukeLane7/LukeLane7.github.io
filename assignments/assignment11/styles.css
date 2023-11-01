@@ -1,0 +1,42 @@
+/* Body */
+.movie {
+  background-color: dodgerblue;
+  padding: 25px;
+  margin:5px;
+  width: 97%;
+  display: flex;
+}
+body{
+  background-color: navy;
+}
+.movie-img{
+  flex:1;
+}
+.movie-content{
+  flex:2;
+}
+#main-content{
+  
+}
+ul{
+  list-style-type: none;
+}
+
+img{
+  width: 20%; 
+  border: 5px solid blue;
+}
+img:hover{
+  position: relative;
+  transform: scale(1.5);
+}
+
+/* Larger Resolutions */
+@media (max-width:600px){
+  #main-content {
+    display: flex; 
+    flex: 1; 
+    flex-wrap: wrap; 
+  }
+
+}

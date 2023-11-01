@@ -1,0 +1,22 @@
+/* Body */
+.cocktail {
+    background-color: lightblue;
+    border: 5px solid dodgerblue;
+    width: 300px; 
+    height: 300px; 
+}
+
+/* Larger Resolutions */
+@media (min-width:900px){
+  #main-content {
+    display: flex; 
+    flex: 1; 
+    flex-wrap: wrap; 
+  }
+
+}
+.img-format {
+  width: 60%; 
+  height: 40%; 
+  border: 5px solid black; 
+}
