@@ -1,0 +1,43 @@
+[
+    {
+      "name": "100$ gift card",
+      "price": "$100",
+      "img": "images/giftcard.png"
+    },
+    {
+      "name": "6-pack golf balls",
+      "price": "$30",
+      "img": "images/6-packGB.png"
+    },
+    {
+      "name": "1 LED Night Golf ball",
+      "price": "$20",
+      "img": "images/nightballs.png"
+    },
+    {
+      "name": "Home Putting Practice Green",
+      "price": "$125",
+      "img": "images/practicegreen.png"
+    },
+    {
+      "name": "Free 18-hole round gift card",
+      "price": "$25",
+      "img": "images/giftcard.png"
+    },
+    {
+      "name": "30-pack golf balls",
+      "price": "$120",
+      "img": "images/30packGB.png"
+    },
+    {
+      "name": "6 LED Night Golf ball",
+      "price": "$85",
+      "img": "images/nightballs.png"
+    },
+    {
+      "name": "Golf clubs bag",
+      "price": "$65",
+      "img": "images/golfbag.png"
+    }
+  ]
+  
