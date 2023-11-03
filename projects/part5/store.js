@@ -29,7 +29,7 @@ const getStore = async () => {
     section.classList.add("col1of2");
 
     //Tried to get 4 of them into a flex container so they would line up next to eachother and have another row underneath the 4
-    //but i couldnt correctly loop 4 of them together in this or the other function
+    //but i couldnt correctly loop 4 of them together in this or the other function sooo it doesnt look as great as i wanted/thought it would
 
     const h8 = document.createElement("h8");
     h8.innerText = item.name; 
