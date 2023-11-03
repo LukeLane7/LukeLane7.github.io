@@ -183,8 +183,12 @@ p{
 #store-button{
     margin-bottom: 20px;
 }
+.store-img{
+    width: 100px;
+}
 .hide{
     display: none;
+
 }
 /* Typography */
 
